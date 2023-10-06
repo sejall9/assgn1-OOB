@@ -83,11 +83,11 @@ public class School {
 
     public static void main(String[] args) {
         School school = new School();
-        school.addStudent(new Student("John Smith", 101, 17, "Smith", 3.8));
-        school.addStudent(new Student("Emily Johnson", 102, 16, "Johnson", 3.9));
-        school.addStudent(new Student("Michael Brown", 103, 18, "Brown", 3.7));
-        school.addStudent(new Student("Sarah Davis", 104, 17, "Davis", 4.0));
-        school.addStudent(new Student("Daniel Martinez", 105, 16, "Martinez", 3.6));
+        school.addStudent(new Student("Sejal Deopura", 101, 17, "Deopura", 3.8));
+        school.addStudent(new Student("Meera Pandya", 102, 16, "Pandya", 3.9));
+        school.addStudent(new Student("Kaaviya Modi", 103, 18, "Modi", 3.7));
+        school.addStudent(new Student("Pritika Parikh", 104, 17, "Parikh", 4.0));
+        school.addStudent(new Student("Varun Shah", 105, 16, "Shah", 3.6));
 
         // Sort and print by ID
         school.sortStudentsById();
